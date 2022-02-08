@@ -258,5 +258,9 @@ input:checked + .slider:before {
 .clicktoedit input{
     margin-left: 20px;
     border: 1px solid #000;
+    text-align: center;
+}
+.clicktoedit input.focus{
+    border: 2px solid #6804b9;
 }
 /*ClickToEdit end*/

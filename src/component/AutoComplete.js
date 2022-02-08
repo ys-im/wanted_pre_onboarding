@@ -25,7 +25,7 @@ class AutoComplete extends Component{
             userInput: e.target.value
         });
 
-        if(filteredSuggestions.length > 0 && userInput != ""){
+        if(filteredSuggestions.length > 0 && userInput !== ""){
             e.target.parentElement.className += " active";
         }else{            
             e.target.parentElement.className = e.target.parentElement.className.replace(" active", "");

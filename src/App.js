@@ -22,7 +22,9 @@ class App extends Component{
         {title: "Tab3", content: "Tab menu THREE"}
       ],
 
-      acList: ["antique", "vintage", "중고A급", "refurbished", "rustic"]
+      acList: ["antique", "vintage", "중고A급", "refurbished", "rustic"],
+      
+      cteList: ["이름", "나이"]
     };
   }
 
@@ -66,8 +68,7 @@ class App extends Component{
 
         <h2>6. ClickToEdit</h2>
         <div className="container">
-          <ClickToEdit>
-
+          <ClickToEdit cteData={this.state.cteList}>
           </ClickToEdit>
         </div>
       </div>
